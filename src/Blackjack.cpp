@@ -12,7 +12,8 @@ using namespace std;
 
 int main() {
 
-    cout << "Hello World!" << endl;
+    Card test('k', 's');
+    test.print_card();
 
     return 0;
 }
