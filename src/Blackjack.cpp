@@ -12,8 +12,10 @@ using namespace std;
 
 int main() {
 
-    Card test('k', 's');
-    test.print_card();
+    Deck deck;
+    for (int i = 0; i < deck.get_size(); i++) {
+        deck.deck[i].print_card();
+    }
 
     return 0;
 }
